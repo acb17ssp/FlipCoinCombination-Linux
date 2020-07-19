@@ -22,6 +22,7 @@ do
 		echo "Not processed"
 	fi
 done
+
 headsPercentage=$(($headCount*100/10))
 tailsPercentage=$(($tailCount*100/10))
 echo "(Singlet) Heads Percentage: $headsPercentage%"
